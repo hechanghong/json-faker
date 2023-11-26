@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es2018",          /* Specify the target ECMAScript version */
+      "module": "commonjs",        /* Specify module system (Node.js uses CommonJS) */                 
+      "lib": ["es6"],                     
+      "allowJs": true,
+      "outDir": "build",          /* Output directory for compiled files */
+      "rootDir": "src",             /* Source code directory */       
+      "noImplicitAny": true,
+      "resolveJsonModule": true,
+      "strict": true,              /* Enable all strict type-checking options */
+      "esModuleInterop": true       /* Enable compatibility with CommonJS modules */
+    },
+    "include": [
+      "src/**/*.ts"               /* Include TypeScript files under the 'src' directory */
+    ],
+    "exclude": [
+      "node_modules"              /* Exclude 'node_modules' directory */
+    ]
+  }
+  

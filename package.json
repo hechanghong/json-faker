@@ -1,0 +1,29 @@
+{
+  "name": "json-faker",
+  "version": "1.0.0",
+  "description": "Generate sample data using input JSON schema",
+  "main": "jsonGenerator.ts",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "sample",
+    "data"
+  ],
+  "author": "Michael",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
